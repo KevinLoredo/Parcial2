@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <header> es para que los motores de busqueda identifiquen que es el encabezado de la pagina -->
+        <header id="encabezado">
+<!-- rutas absolutas y relativas -->
+<!-- /relativa/a/raiz/del/sitio/ -->
+<!-- relatia/al/archivo/actual -->
+<!-- http://www.dominio.com/ruta/absoluta/index.html -->
+<!-- file://c:\users\julia\practicas\12_proyecto_web\images\logo_sep.png -->
+           <figure>
+                <img src="images/logo_sep.png"alt="Logotipo SEP">
+           </figure>
+           
+           <div id="titulos">
+               <h1>Sitio Oficial del CETis No. 108</h1>
+               <h2>Subsecretaría de Educación Media Superior</h2>
+               <h3>Dirección General de Educación Tecnológica Industrial</h3>
+               <h4>Centro de Estudios Tecnológicos industrial y de servicios No. 108</h4>
+               <h5>"Gral. Gabriel Leyva Solano" C.C.T. 25DCT0108H</h5>
+           </div>
+           
+           <div>
+               <figure>
+                   <img src="images/sems_dgeti.png" alt="Logotipo SEMS DGETI">
+               </figure>
+               <input type="text" name="busqueda" id="busqueda">
+               <button>Buscar</button>
+            </div>
+        </header>
+        
+        <nav id="menu">
+            <ul>
+                <!-- unordered list -->
+                <li><a href="#">Inicio</a></li> <!-- list-item -->
+                <li><a href="#">Plantel</a></li>
+                <li>
+                    <a href="#">Oferta Educativa</a>
+                    <ul>
+                        <li><a href="#">Programación</a></li>
+                        <li><a href="#">Soporte</a></li>
+                        <li><a href="#">Contabilidad</a></li>
+                        <li><a href="#">Mantenimiento Aut.</a></li>
+                        <li><a href="#">Electrónica</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Alumnos</a>
+                    <ul>
+                        <li><a href="#">Horarios</a></li>
+                        <li><a href="#">Calificaciones</a></li>
+                        <li><a href="#">Convocatorias</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Docentes</a></li>
+                <li><a href="#">Empleados</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <!-- <main> es para que los motores de busqueda identifiquen que es el contenido de la pagina -->
+        <main id="contenido">
+            <section id="nota-importante">
+                <img src="Images/nota-importante.jpg" alt="Nota-Importante">
+            </section>
+            <div class="flexible">
+            <section id="notas-secundarias">
+                <article>
+                    <figure class="imagen-nota-secundaria">
+                        <img class="sombra-imagen" src="images/Notas/1/tmb.jpg" alt="Feria Vocacional">
+                        <span>13 Nov</span>
+                    </figure>
+                    <div class="cuerpo-nota-secundaria">
+                        <h2 class="titulo-nota-secundaria">Feria Vocacional 2014</h2>
+                        <p class="intro-nota-secundaria">Con la presencia de múltiples universidades de la región, se lleva a cabo con éxito la Feria Vocacional 2014 en las instalaciones del plantel...</p>
+                        <a href="#">
+                           <div class="boton">
+                            <div>
+                                <p>Leer Más</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>   
+                <article>
+                    <figure class="imagen-nota-secundaria">
+                        <img class="sombra-imagen" src="images/Notas/2/tmb.jpg" alt="Informe De Actividades">
+                        <span>27 Ago</span>
+                    </figure>
+                    <div class="cuerpo-nota-secundaria">
+                        <h2 class="titulo-nota-secundaria">Informe de actividades y rendición de cuentas del ciclo escolar 2013-2014</h2>
+                        <p class="intro-nota-secundaria">Se llevó a cabo el Informe de Actividades y Rendición de Cuentas en el Centro de studios Tecnológicos Industrial y de Servicios No. 108...</p>
+                        <a href="#">
+                           <div class="boton">
+                            <div>
+                                <p>Leer Más</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <figure class="imagen-nota-secundaria">
+                        <img class="sombra-imagen" src="images/Notas/3/tmb.jpg" alt="Inauguración Ciclo 2014-2015">
+                        <span>25 Ago</span>
+                    </figure>
+                    <div class="cuerpo-nota-secundaria">
+                        <h2 class="titulo-nota-secundaria">Inauguración del nuevo ciclo escolar 2014-2015</h2>
+                        <p class="intro-nota-secundaria">Con homenaje cívico se dió inicio a las labores del ciclo escolar 2014-2015 en el CETis108...</p>
+                        <a href="#">
+                           <div class="boton">
+                            <div>
+                                <p>Leer Más</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>  
+                <article>
+                    <figure class="imagen-nota-secundaria">
+                        <img class="sombra-imagen" src="images/Notas/4/tmb.jpg" alt="Toma De Protesta">
+                        <span>22 Ago</span>
+                    </figure>
+                    <div class="cuerpo-nota-secundaria">
+                        <h2 class="titulo-nota-secundaria">Toma de protesta a nuevo director del CETis108</h2>
+                        <p class="intro-nota-secundaria">Se llevo a cabo la toma de protesta del nuevo director el C.P. y M.I. Julio Alberto Cruz Perales...</p>
+                        <a href="#">
+                           <div class="boton">
+                            <div>
+                                <p>Leer Más</p>
+                            </div>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </section>
+            <aside id="publicidad">
+              
+              <div id="redes-sociales">
+                    <a href="http://facebook.com/cetis108" class="facebook">Facebook</a> 
+                      <a href="http://twitter.com/cetis108" class="twitter">twitter</a> 
+                  </div>
+              
+               <a href="#" class="sombra-imagen"> 
+                <img src="images/banners/banner-cdeciencia.png"width="220" alt="banner">
+               </a>
+               
+                <a href="#" class="sombra-imagen"> 
+                <img src="images/banners/banner_prototipos_2015.jpg"width="220" alt="banner">
+               </a>
+               
+               <a href="#" class="sombra-imagen"> 
+                <img src="images/banners/banner-jtyrc-2015.png" width="220" alt="banner">
+               </a>
+               
+               <a href="#" class="sombra-imagen"> 
+                <img src="images/banners/prepa_en_linea_2016_vertical.jpg" width="220" alt="banner mas grande">
+               </a>
+               
+            </aside>
+        </div>
+                  
+               <section id="programas">
+                <figure>
+                    <a href="#">
+                        <img src="images/programas/abandono-escolar.jpg" class="sombra-imagen" alt="">
+                    </a> 
+                </figure>
+                
+                 <figure>
+                    <a href="#">
+                        <img src="images/programas/becas-media-superior.jpg" class="sombra-imagen" alt="">
+                    </a> 
+                </figure>
+                
+                 <figure>
+                    <a href="#">
+                        <img src="images/programas/decide-tus-estudios.jpg" class="sombra-imagen" alt="">
+                    </a> 
+                </figure>
+                
+                 <figure>
+                    <a href="#">
+                        <img src="images/programas/prepa-videos.jpg" class="sombra-imagen" alt="">
+                    </a> 
+                </figure>
+                </section>
+            
+        </main>
+        <footer id="pie">
+            <div id="politicas">
+                <p>
+                <abbr title="Centro De Estudios Tecnologico Industrial y De Servicios No. 108">CETis No.108</abbr> . Guasave, Sinaloa México . Algunos Derechos Reservados &copy; 2016
+                .Politicas De Privacidad</p> 
+            </div>
+            <div id="separador-sems">
+                <a id="logo-sems" href="http://www.sems.gob.mx" target="blank">Subsecretaria De Educación Media Superior</a>
+            </div>
+            <div id="direccion">
+             <p>Zona Industrial S/N, Carretera a Los Angeles Del Triunfo, CP.81101</p>
+             <p>Guasave, Sinaloa, México - Tel. (687) 87 234 07</p>
+             <p>Comentarios Sobre Este Sitio De Internet</p>
+                
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
